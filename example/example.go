@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/zemirco/couchdb"
+	"github.com/go-base-lib/couchdb"
 )
 
 // create your own document

@@ -6,8 +6,8 @@ type DatabaseInfo struct {
 	DbName             string `json:"db_name"`
 	DocCount           int    `json:"doc_count"`
 	DocDelCount        int    `json:"doc_del_count"`
-	UpdateSeq          int    `json:"update_seq"`
-	PurgeSeq           int    `json:"purge_seq"`
+	UpdateSeq          string `json:"update_seq"`
+	PurgeSeq           string `json:"purge_seq"`
 	CompactRunning     bool   `json:"compact_running"`
 	DiskSize           int    `json:"disk_size"`
 	DataSize           int    `json:"data_size"`
